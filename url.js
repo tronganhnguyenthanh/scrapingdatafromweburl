@@ -1,0 +1,1 @@
+export const crawlURL = "https://www.lazada.vn"
