@@ -8,7 +8,7 @@ const CrawlLazadaData = () => {
    setCrawlData(res.data.web_menu)
   }
   const redirectMenuPage = (item) => {
-   window.open(item) 
+   window.open(item, "_blank", "width:100%, height:400px") 
   }
   return(
    <> 
